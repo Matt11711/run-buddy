@@ -108,27 +108,27 @@ margin: 3.5%;
 }
 /* Hero Style End */
 /* what we do styles */
-.intro {
-    text-align: center;
-}
+
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: center;
 }
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin:0 0 35px 0;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+   
 }
 /* what you do styles */
 .steps div {
@@ -152,7 +152,7 @@ margin: 3.5%;
 }
 /* meet the trainers styles*/
 .trainers {
-    text-align: center;
+ 
 }
 .trainer {
     width: 900px;
@@ -191,7 +191,7 @@ margin: 3.5%;
 }
 /* reach out styles start */
 .contact {
-    text-align: center;
+  
     background: #024e76;
 }
 .contact h2 {
@@ -245,4 +245,7 @@ footer div {
 }
 footer a {
     color: #024e76;
+}
+.flex-row {
+    display: flex;
 }
